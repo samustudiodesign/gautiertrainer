@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gautier Trainer</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#24272c">
+  
+  <!-- Google Meta Data -->
+  <meta name='description', content=''>
+  <meta name='keywords', content=''>
+  <meta name="robots" content="index, follow">
+
+  <!-- Blog Meta Data -->
+  <meta name="dc.language" content="es">
+  <meta name="dc.source" content="">
+  <meta itemprop="url" content="">
+
+  <!-- Twitter Card Meta Data -->
+  <meta content='summary' name='twitter:card'>
+  <meta content='Gautier Trainer' name='twitter:site'>
+  <meta content='Gautier Trainer' name='twitter:title'>
+  <meta content='Gautier Trainer' name='twitter:description'>
+
+  <!-- Open Graph Meta Data -->
+  <meta content='website' property='og:type'>
+  <meta content='assets/img/favicon-32x32.png' property='og:image'>
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta content='' property='og:description'>
+  <meta property="og:type" content="">
+  <meta property="og:image" content="">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/slick-theme.css" rel="stylesheet">
+  <link href="assets/css/slick.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+</head>
+<body>
+
+  <header class="d-flex d-lg-none">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo-gautier-movil.png" alt=""></a>
+      <div class="title-responsive">
+        <p>Entrenamiento</p>
+      </div>
+
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <i class="icon-icon-dashboard"></i> Dashboard</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="icon-icon-entrenamiento"></i>Entrenamiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" ><i class="icon-icon-alimentacion"></i>Alimentacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-icon-reportes"></i>Reportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-icon-calendario"></i>Calendario</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-icon-videos"></i>Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-icon-library-ejercicios"></i>Ejercicios</a>
+          </li>
+          <li class="nav-item cerrar-sesion">
+            <a class="nav-link" href="#"><i class="icon-icon-cerrar-sesion"></i>Cerrar Sesión</a>
+          </li>
+        </ul>
+        <div class="options-navbar">
+          <a href="#perfil" class="options-navbar__user">
+            <div class="user-sidebar__top--img">
+              <img src="assets/img/no-profile.jpg" alt=""> 
+            </div>
+            <p>Samuel56</p>
+          </a>
+          <div class="options-navbar__soport">
+            <div class="btn-soporte">
+              <a href="mailto:gautiertrainer@gmail.com">Soporte <i class="icon-icon-support"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<style type="text/css">
+.button-dropdown-menu-notifi{
+  background-color:#1b1c1d;
+}
+.button-dropdown-menu-notifi:hover,
+.button-dropdown-menu-notifi:active,
+.button-dropdown-menu-notifi:focus{
+  background-color: #161718;
+}
+.user-sidebar__top--text:hover,
+.user-sidebar__top--text:active,
+.user-sidebar__top--text:focus{
+  background-color: #161718!important;
+  border-radius: 50px;
+}
+.user-sidebar__top--img img{
+  border: solid 1px #5e5e5e;
+}
+.notifi-sidebar__top i{
+  color: #ffffff;
+}
+@media (max-width: 767px){
+  .navbar::before,
+  .navbar::after{
+    display: none;
+  }
+
+.copy.d-flex.d-lg-none{
+  background-color: #161718;
+}
+.copy.d-flex.d-lg-none p{
+  color: #949494;;
+}
+}
+</style>
+<section>
+    <div class="navabar__grub">
+      <div class="sidebar__content">
+
+        <div class="sidebar__content--top sidebar__routine  d-none d-lg-flex">
+          <div class="title-sidebar__top">
+            <img src="assets/img/logo-gautier-movil.png" alt=""> <p>Entrenamiento</p>
+          </div>
+          <div class="sidebar-top__content">
+            <div class="user-sidebar__top">
+             
+              <div class="user-sidebar__top--text">
+                <div class="dropdown">
+    
+                  <button class="button-dropdown-menu-user" type="button" id="dropdownMenu-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="user-sidebar__top--img"><img src="assets/img/no-profile.jpg" alt=""></div>
+                    Samuel Jara <i class="icon-icon-down" ></i>
+                  </button>
+    
+                  <div class="dropdown-menu dropdown-menu-user" aria-labelledby="dropdownMenu-user">
+                    <p class="dashboard-primary__title">Mi cuenta</p>
+    
+                    <a class="dropdown-item item-menu-cuenta" href="page-micuenta.html">
+                      <div class="user-sidebar__top--img"><img src="assets/img/no-profile.jpg" alt=""></div>
+                      <div>Ver Cuenta <br> <span class="text-user">@samuel6798</span></div></a>
+                    <a class="dropdown-item item-menu-cerrar-sesion" href="#">Cerrar sesión</a>
+    
+                  </div>
+                </div>
+              </div>  
+            </div>
+    
+            <div class="notifi-sidebar__top">
+              
+              <div class="dropdown">
+              <button class="button-dropdown-menu-notifi" id="dropdownMenu-notifi" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                <i class="icon-icon-notifications"></i></button>
+    
+              <div class="dropdown-menu dropdown-menu-notifi" aria-labelledby="dropdownMenu-notifi">
+                <p class="dashboard-primary__title">Notificaciones</p>
+    
+              <div class="items-notifications-content">
+                <a class="dropdown-item item-notification" href="#">
+                  <img class="image-notification" src="assets/img/img-notifi-1.png" width="45" height="45" alt="">
+                  <div class="content-notificacion">
+                    <p class="text--notifi"> <b> Samuel56,</b> realiza el cuestionario de
+                      entrenamiento</p>
+                    <span class="notifi--how-lon-ago">hace 1 min</span>
+                  </div>
+                </a>
+    
+                <a class="dropdown-item item-notification" href="#">
+                  <img class="image-notification" src="assets/img/img-notifi-2.png" width="45" height="45" alt="">
+                  <div class="content-notificacion">
+                    <p class="text--notifi"> <b> Samuel56,</b> realiza el cuestionario de
+                      nutrición</p>
+                    <span class="notifi--how-lon-ago">hace 1 min</span>
+                  </div>
+                </a>
+    
+                <a class="dropdown-item item-notification" href="#">
+                  <img class="image-notification" src="assets/img/img-notifi-3.png" width="45" height="45" alt="">
+                  <div class="content-notificacion">
+                    <p class="text--notifi"> <b> ¡BIENVENIDO!</b>  Hemos preparado este
+                      video para ti ;)</p>
+                    <span class="notifi--how-lon-ago">hace 1 min</span>
+                  </div>
+                </a>
+              </div>
+    
+              <a class="dropdown-item item-notification view-all" href="#"> Ver todas las notificaciones</a>
+    
+              </div>
+            </div>
+    
+            </div>
+    
+          </div>
+        </div>
+
+        <div class="sidebar__content--content ">
+            <div class="workout-routine">
+                <div class="subtitle-routine d-md-block">
+                    <a href="#"><i class="icon-icon-left" aria-hidden="true"></i>Etapa 1 - Mes 1</a>
+                </div>
+                <div class="routine-content padding-rl">
+                    <div class="routine-content__video">
+                        <div class="routine-content__video--video d-md-block">
+                          <iframe src="https://player.vimeo.com/video/481477273" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="routine-content__video--btn movil-visible-none">
+                            <a class="btn-completed" href="#">Completed</a>
+                            <a class="btn-descartar" href="#">Descartar</a>
+                        </div>
+                    </div>
+                    <div class="routine-content__content ">
+                        <div class="title-routine__programa d-md-block">
+                            <p>DÍA 1 - Torso HIT</p>
+                        </div>
+                        <div class="slider-dashboard__cat d-md-flex">
+                        <p>En el Gym <i class="icon-icon-check-oval" aria-hidden="true"></i></p>
+                      </div>
+                      <div class="collapse-routine__text d-md-block">
+                          <p>
+                              Para tu entrenamiento debes tomar en cuenta lo siguiente: 
+                            <a  data-toggle="collapse" href="#collapseDescription" role="button" aria-expanded="false" aria-controls="collapseExample">
+                               Ver más<i class="icon-icon-down" aria-hidden="true"></i>
+                            </a>
+                          </p>
+                          <div class="collapse" id="collapseDescription">
+                            <div class="card card-body">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Consequuntur quibusdam maiores alias quidem numquam mollitia velit doloribus dolores, facere iure delectus cupiditate inventore sed, accusamus quia. Tempora, nobis dignissimos aperiam!
+                            </div>
+                            <a  data-toggle="collapse" href="#collapseDescription" role="button" aria-expanded="false" aria-controls="collapseExample">
+                             <br> Ver menos<i class="icon-icon-top" aria-hidden="true"></i>
+                           </a>
+                          </div>
+                      </div>
+                      <div class="table-routine">
+                          <div class="tableWorkout-routine">
+                            
+                          <div class="table-routine__content">
+                              <div class="table-routine__number">
+                                  <p>1</p>
+                              </div>
+
+                              <div class="table-routine__video--content">
+                              <div class="table-routine__video">
+                                <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                    <img src="assets/img/img-vide-routine.png" alt="">
+                                    <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                </a>
+                                  <div class="table-routine__video--text">
+                                      <h4>Dominadas</h4>
+                                      <p>Controlar cada repetición sin llegar al fallo</p>
+                                  </div>
+                              </div>
+                              
+                            </div>
+
+                              <div class="table-routine__reps">
+                                <div class="table-routine__reps--datos">
+                                  <p>6-10</p>
+                                  <span>REPS</span>
+                                </div>
+                              
+                              </div>
+                              <div class="table-routine__sets">
+                                  <p>4</p>
+                                  <span>SETS</span>
+                              </div>
+                              <div class="table-routine__rest">
+                                  <p>3'</p>
+                                  <span>REST</span>
+                              </div>
+                            </div>
+                          
+                              </div>
+
+                          <div class="tableWorkout-routine">
+                            
+                            <div class="table-routine__content">
+                                <div class="table-routine__number">
+                                    <p>2</p>
+                                </div>
+
+                                <div class="table-routine__video--content">
+                                <div class="table-routine__video">
+                                  <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                      <img src="assets/img/img-vide-routine.png" alt="">
+                                      <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                  </a>
+                                    <div class="table-routine__video--text">
+                                        <h4>Dominadas</h4>
+                                        <p>Controlar cada repetición sin llegar al fallo</p>
+                                    </div>
+                                </div>
+                                
+                              </div>
+
+                                <div class="table-routine__reps">
+                                  <div class="table-routine__reps--datos">
+                                    <p>6-10</p>
+                                    <span>REPS</span>
+                                  </div>
+                                
+                                </div>
+                                <div class="table-routine__sets">
+                                    <p>4</p>
+                                    <span>SETS</span>
+                                </div>
+                                <div class="table-routine__rest">
+                                    <p>3'</p>
+                                    <span>REST</span>
+                                </div>
+                              </div>
+                            
+                              </div>
+                              
+                          <div class="tableWorkout-routine">
+                              <div class="title-table__routine">
+                                  <p style="color: #f3bb25;">biserie</p>
+                              </div>
+                              <div class="table-routine__content">
+                                  <div class="table-routine__number">
+                                      <p>3</p>
+                                  </div>
+
+                                  <div class="table-routine__video--content">
+                                  <div class="table-routine__video">
+                                    <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                        <img src="assets/img/img-vide-routine.png" alt="">
+                                        <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                    </a>
+                                      <div class="table-routine__video--text">
+                                          <h4>Dominadas</h4>
+                                          <p>Controlar cada repetición sin llegar al fallo</p>
+                                      </div>
+                                  </div>
+                                  <div class="table-routine__video">
+                                    <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                        <img src="assets/img/img-vide-routine.png" alt="">
+                                        <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                    </a>
+                                      <div class="table-routine__video--text">
+                                          <h4>Dominadas</h4>
+                                          <p>Controlar cada repetición sin llegar al fallo</p>
+                                      </div>
+                                  </div>
+                                </div>
+
+                                  <div class="table-routine__reps">
+                                    <div class="table-routine__reps--datos">
+                                      <p>6-10</p>
+                                      <span>REPS</span>
+                                    </div>
+                                    <div class="table-routine__reps--datos">
+                                      <p>6-10</p>
+                                      <span>REPS</span>
+                                    </div>
+                                  </div>
+                                  <div class="table-routine__sets">
+                                      <p>4</p>
+                                      <span>SETS</span>
+                                  </div>
+                                  <div class="table-routine__rest">
+                                      <p>3'</p>
+                                      <span>REST</span>
+                                  </div>
+                                </div>
+                              
+                              </div>
+
+                          <div class="tableWorkout-routine">
+                                  <div class="title-table__routine">
+                                    <p style="color: #d62220;">superserie</p>
+                                  </div>
+                                  <div class="table-routine__content">
+                                      <div class="table-routine__number">
+                                          <p>4</p>
+                                      </div>
+    
+                                      <div class="table-routine__video--content">
+                                      <div class="table-routine__video">
+                                        <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                            <img src="assets/img/img-vide-routine.png" alt="">
+                                            <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                        </a>
+                                          <div class="table-routine__video--text">
+                                              <h4>Dominadas</h4>
+                                              <p>Controlar cada repetición sin llegar al fallo</p>
+                                          </div>
+                                      </div>
+                                      <div class="table-routine__video">
+                                        <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                            <img src="assets/img/img-vide-routine.png" alt="">
+                                            <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                        </a>
+                                          <div class="table-routine__video--text">
+                                              <h4>Dominadas</h4>
+                                              <p>Controlar cada repetición sin llegar al fallo</p>
+                                          </div>
+                                      </div>
+                                      <div class="table-routine__video">
+                                        <a data-toggle="modal" data-target="#exampleModal"  class="table-routine__video--video">
+                                            <img src="assets/img/img-vide-routine.png" alt="">
+                                            <div class="play-video__routine"><i class="icon-play-button" aria-hidden="true"></i></div>
+                                        </a>
+                                          <div class="table-routine__video--text">
+                                              <h4>Dominadas</h4>
+                                              <p>Controlar cada repetición sin llegar al fallo</p>
+                                          </div>
+                                      </div>
+                                    </div>
+    
+                                      <div class="table-routine__reps">
+                                        <div class="table-routine__reps--datos">
+                                          <p>6-10</p>
+                                          <span>REPS</span>
+                                        </div>
+                                        <div class="table-routine__reps--datos">
+                                          <p>6-10</p>
+                                          <span>REPS</span>
+                                        </div>
+                                        <div class="table-routine__reps--datos">
+                                          <p>6-10</p>
+                                          <span>REPS</span>
+                                        </div>
+                                      </div>
+                                      <div class="table-routine__sets">
+                                          <p>4</p>
+                                          <span>SETS</span>
+                                      </div>
+                                      <div class="table-routine__rest">
+                                          <p>3'</p>
+                                          <span>REST</span>
+                                      </div>
+                                    </div>
+                                  
+                              </div>
+                          
+                         
+                      </div>
+                      <div class="routine-content__video--btn desktop-visible-none">
+                        <a class="btn-completed" href="">Completado</a>
+                        <a class="btn-descartar" href="">Descartar</a>
+                    </div>	
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
+  <div class="copy d-flex d-lg-none">
+    <p>Copyright © 2020</p>
+  </div>
+  
+  
+  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/setting-slick.js"></script>
+  <script src="assets/js/main.js"></script>
+  </body>
+  </html>
