@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gautier Trainer</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#24272c">
+
+  <!-- Google Meta Data -->
+  <meta name='description' , content=''>
+  <meta name='keywords' , content=''>
+  <meta name="robots" content="index, follow">
+
+  <!-- Blog Meta Data -->
+  <meta name="dc.language" content="es">
+  <meta name="dc.source" content="">
+  <meta itemprop="url" content="">
+
+  <!-- Twitter Card Meta Data -->
+  <meta content='summary' name='twitter:card'>
+  <meta content='Gautier Trainer' name='twitter:site'>
+  <meta content='Gautier Trainer' name='twitter:title'>
+  <meta content='Gautier Trainer' name='twitter:description'>
+
+  <!-- Open Graph Meta Data -->
+  <meta content='website' property='og:type'>
+  <meta content='assets/img/favicon-32x32.png' property='og:image'>
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta content='' property='og:description'>
+  <meta property="og:type" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/slick-theme.css" rel="stylesheet">
+  <link href="assets/css/slick.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+</head>
+
+<body>
+
+  <header class="d-flex d-lg-none">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo-gautier-movil.png" alt=""></a>
+      <div class="title-responsive">
+        <p>Mi cuenta</p>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html"> <i class="icon-icon-dashboard"></i> Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page-workout.html"><i class="icon-icon-entrenamiento"></i>Entrenamiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page-alimentacion.html"><i class="icon-icon-alimentacion"></i>Alimentacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page-reportes.html"><i class="icon-icon-reportes"></i>Reportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page-calendario.html"><i class="icon-icon-calendario"></i>Calendario</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="page-videos-tutoriales.html"><i class="icon-icon-videos"></i>Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page-lista-ejercicios.html"><i
+                class="icon-icon-library-ejercicios"></i>Ejercicios</a>
+          </li>
+          <li class="nav-item cerrar-sesion">
+            <a class="nav-link" href="#"><i class="icon-icon-cerrar-sesion"></i>Cerrar Sesión</a>
+          </li>
+        </ul>
+        <div class="options-navbar">
+          <a href="page-micuenta.html" class="options-navbar__user">
+            <div class="user-sidebar__top--img">
+              <img src="assets/img/no-profile.jpg" alt="">
+            </div>
+            <p>Samuel56</p>
+          </a>
+          <div class="options-navbar__soport">
+            <div class="btn-soporte">
+              <a href="mailto:gautiertrainer@gmail.com">Soporte <i class="icon-icon-support"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="navabar__grub">
+
+      <div class="sidebar__navbar my-sidebar active d-none d-lg-block">
+        <div class=" py-4 position-relative">
+          <a href="#dashboard" class="brand__sidebar"><img src="assets/img/logo-gautier-desktop.png" alt=""></a>
+
+          <ul class="sidebar__list--menu pb-4 ">
+            <li><a href="dashboard.html"><i class="icon-icon-dashboard"></i> Dashboard</a></li>
+            <li><a href="page-workout.html"><i class="icon-icon-entrenamiento"></i>Entrenamiento</a></li>
+            <li><a href="page-alimentacion.html"><i class="icon-icon-alimentacion"></i>Alimentación</a></li>
+            <li><a href="page-reportes.html"><i class="icon-icon-reportes"></i>Reportes</a></li>
+            <li><a href="page-calendario.html"><i class="icon-icon-calendario"></i>Calendario</a></li>
+          </ul>
+          <ul class="sidebar__list--menu py-4">
+            <li><a href="page-videos-tutoriales.html"><i class="icon-icon-videos"></i>Videos</a></li>
+            <li><a href="page-lista-ejercicios.html"><i class="icon-icon-library-ejercicios"></i>Ejercicios</a></li>
+          </ul>
+        </div>
+        <div class="btn-soporte">
+          <a href="mailto:gautiertrainer@gmail.com">Soporte <i class="icon-icon-support" aria-hidden="true"></i></a>
+        </div>
+
+      </div>
+
+
+      <div class="sidebar__content">
+
+        <div class="sidebar__content--top d-none d-lg-flex">
+          <div class="title-sidebar__top">
+            <p>Mi cuenta</p>
+          </div>
+          <div class="sidebar-top__content">
+            <div class="user-sidebar__top">
+
+              <div class="user-sidebar__top--text">
+                <div class="dropdown">
+
+                  <button class="button-dropdown-menu-user" type="button" id="dropdownMenu-user" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <div class="user-sidebar__top--img"><img src="assets/img/no-profile.jpg" alt=""></div>
+                    Samuel Jara <i class="icon-icon-down"></i>
+                  </button>
+
+                  <div class="dropdown-menu dropdown-menu-user" aria-labelledby="dropdownMenu-user">
+                    <p class="dashboard-primary__title">Mi cuenta</p>
+
+                    <a class="dropdown-item item-menu-cuenta" href="page-micuenta.html">
+                      <div class="user-sidebar__top--img"><img src="assets/img/no-profile.jpg" alt=""></div>
+                      <div>Ver Cuenta <br> <span class="text-user">@samuel6798</span></div>
+                    </a>
+                    <a class="dropdown-item item-menu-cerrar-sesion" href="#">Cerrar sesión</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="sidebar__content--content ">
+          <div class="dashboard-content padding-rl">
+            <div class="perfil-content">
+              <div class="main-alimentacion__content ">
+                <div class="banner-perfil">
+                  <div class="banner-perfil__img">
+
+                    <label for="fileInput">
+                      <i class="icon-icon-camera" aria-hidden="true"></i></label>
+                    <input id="fileInput" type="file" style="visibility:hidden; height: 0px; width: 0px;" onchange="">
+                    <p><img id="output" src="assets/img/no-profile.jpg" width="200"></p>
+
+                  </div>
+                  <div class="banner-perfil__text">
+                    <div class="banner-perfil__title">
+                      <div>
+                        Samuel Jara
+                        <p class="banner-alimentacion__text--etiqueta">
+                          PREMIUM <i class="icon-icon-check-oval" aria-hidden="true"></i>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="banner-perfil__date">
+                      <p>@samuel56</p> <span>Unido desde Agosto 2020</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-perfil">
+                  <div class="menu-perfil__content">
+                    <div class="menu-perfil__content--title">
+                      <p>Mis datos</p>
+
+                    </div>
+                    <div class="menu-perfil__content--datos">
+                      <div class="perfil-content__datos--title">
+                        <p>Información General</p> <br>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>NOMBRES</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Nombres" class="input-text" type="text" name="Nombres" id="Nombres"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>APELLIDOS</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Apellidos" class="input-text" type="text" name="Apellidos" id="Apellidos"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+
+                      <div class="perfil-content__datos--content">
+                        <p>FECHA DE NACIMIENTO</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Apellidos" class="input-text" type="text" name="Apellidos" id="Apellidos"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+
+                      <div class="perfil-content__datos--content">
+                        <p>TALLA</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Talla" class="input-text" type="text" name="email" id="email"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+
+                      <div class="perfil-content__datos--content">
+                        <p>PESO</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Peso" class="input-text" type="text" name="email" id="email"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+
+                      <div class="perfil-content__datos--content">
+                        <p>E-MAIL</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Email" class="input-text" type="email" name="email" id="email"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+
+                      <div class="perfil-content__datos--content">
+                        <p>TELÉFONO</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Teléfono" class="input-text" type="number" name="email" id="email"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+
+                    </div>
+                    <div class="menu-perfil__content--datos">
+                      <div class="perfil-content__datos--title">
+                        <p>Otros</p> <br>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>PAÍS</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="País" class="input-text" type="text" name="Apellidos" id="Apellidos"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>DEPARTAMENTO</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Departamente" class="input-text" type="text" name="Apellidos"
+                            id="Apellidos" autocomplete="off" />
+                        </p>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>PROVINCIA</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Provincia" class="input-text" type="text" name="Apellidos" id="Apellidos"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>DISTRITO</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Distrito" class="input-text" type="text" name="Apellidos" id="Apellidos"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu-perfil__content--datos">
+                      <div class="perfil-content__datos--title">
+                        <p>Cuenta</p> <br>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>USUARIO</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Usuario" class="input-text" type="text" name="User" id="User"
+                            autocomplete="off" />
+                        </p>
+                      </div>
+
+                      <div class="perfil-content__datos--content">
+                        <p>CONTRASEÑA</p>
+                        <p class="form-row form-row-wide">
+                          <input placeholder="Contraseña" class="input-text" type="password" name="Password"
+                            id="Password" autocomplete="off" />
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="button-save-edit">
+                      <button type="button" class="btn btn-primary"> Guardar</button>
+                    </div>
+
+                  </div>
+
+                  <div class="menu-perfil__options">
+                    <div class="menu-perfil__options--title">
+                      <p>Membresía</p>
+                    </div>
+
+                    <div class="menu-perfil__options--btnAccess">
+                      <p> Activo</p>
+                    </div>
+                    <div class="menu-perfil__options--btnCancelar">
+                      <a target="_blank"
+                        href="mailto:asesorias@gautiertrainer.com?Subject=DESEO%20CANCELAR%20EL%20SERVICIO%20DE%20ASESORÍA">Cancelar
+                        servicio</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <br>
+
+      </div>
+    </div>
+
+  </section>
+
+  <div class="copy d-flex d-lg-none">
+    <p>Copyright © 2020</p>
+  </div>
+
+  <style type="text/css">
+    .input-text {
+      padding: 15px;
+      border-radius: 10px;
+      border: 0px;
+      background-color: #F7F7F7 !important;
+      display: flex;
+      width: 100%;
+    }
+
+    .menu-perfil__options--btnAccess {
+      margin-top: 30px;
+      padding: 15px;
+      width: 100%;
+      text-align: center;
+      border-radius: 10px;
+      border: solid 1px #000000;
+      position: relative;
+    }
+
+    .menu-perfil__options--btnAccess p {
+      font-weight: bold;
+    }
+
+    .menu-perfil__options--btnAccess::after {
+      content: '';
+      position: absolute;
+      top: 19px;
+      margin-left: -45px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #e5ffa7;
+      border: solid 1px #dcfa95;
+      z-index: 4;
+    }
+
+    .menu-perfil__options--btnAccess::before {
+      content: '';
+      position: absolute;
+      top: 22px;
+      margin-left: -42px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #88C234;
+      z-index: 5;
+    }
+
+    .button-save-edit button {
+      padding: 15px;
+      max-width: 200px;
+      margin-top: 30px;
+      float: right;
+    }
+
+    .banner-perfil__img {
+      position: relative;
+    }
+
+    .banner-perfil__img label,
+    .banner-perfil__img input {
+      position: absolute;
+      right: 0px;
+      bottom: -10px;
+      cursor: pointer;
+    }
+
+    .banner-perfil__img label {
+      background-color: #f1f1f1;
+      padding: 8px 11px;
+      border-radius: 50%;
+      transition: linear 0.5s all;
+    }
+
+    .banner-perfil__img label:hover {
+      background-color: #e6e6e6;
+      transition: linear 0.5s all;
+    }
+
+    .menu-perfil__options {
+      height: fit-content;
+    }
+
+    .perfil-content__datos--content {
+      padding-top: 15px;
+      align-items: center;
+    }
+
+    @media (max-width: 991px) {
+      .perfil-content__datos--content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .perfil-content__datos--content p {
+        width: 100% !important;
+        margin-bottom: 10px;
+      }
+
+      .button-save-edit button {
+        max-width: 100%;
+      }
+      .menu-perfil__options {
+      margin-top: 30px;
+    }
+    }
+  </style>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/setting-slick.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

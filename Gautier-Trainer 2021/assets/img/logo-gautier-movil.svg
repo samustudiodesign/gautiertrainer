@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="125px" viewBox="0 0 147 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo GT</title>
+    <defs>
+        <linearGradient x1="-70.3522401%" y1="-8.3140691%" x2="150.569331%" y2="80.3165047%" id="linearGradient-1">
+            <stop stop-color="#FD2E02" offset="0%"></stop>
+            <stop stop-color="#000000" offset="20%"></stop>
+            <stop stop-color="#FD2E02" offset="66%"></stop>
+            <stop stop-color="#FF7400" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-9.16387439%" y1="15.8127991%" x2="98.6830827%" y2="59.6187493%" id="linearGradient-2">
+            <stop stop-color="#FD2E02" offset="0%"></stop>
+            <stop stop-color="#000000" offset="20%"></stop>
+            <stop stop-color="#FD2E02" offset="66%"></stop>
+            <stop stop-color="#FF7400" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login" transform="translate(-1062.000000, -195.000000)" fill-rule="nonzero">
+            <g id="form-login" transform="translate(912.000000, 195.000000)">
+                <g id="Logo-GT" transform="translate(150.000000, 0.000000)">
+                    <polygon id="Path" fill="url(#linearGradient-1)" points="45.7973821 35.176884 66.8888475 35.176884 66.8888475 70.8260024 73.5 82 80.1111525 70.8297672 80.1111525 35.176884 101.206396 35.176884 109 22 38 22"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-2)" points="0 0 7.87711369 13.4005146 7.88093197 13.4005146 42.0163641 71.4553725 60.9932206 103.735298 65.7431622 111.810065 65.7469804 111.813894 65.7469804 111.817722 73.4980909 125 81.2568378 111.806236 86.0067794 103.72764 111.203616 60.8766234 119.084548 47.4761088 119.088366 47.4722801 103.582327 47.4722801 103.578509 47.4761088 87.5379101 47.4761088 87.5379101 60.8766234 95.6975766 60.8766234 78.255669 90.5415339 73.5019091 98.6239586 73.4980909 98.6163012 68.7519676 90.5415339 23.3907894 13.4005146 123.613029 13.4005146 111.001247 34.8528241 126.507286 34.8528241 139.119068 13.4005146 139.122886 13.4005146 147 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
